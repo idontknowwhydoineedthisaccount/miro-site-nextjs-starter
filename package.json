@@ -1,0 +1,19 @@
+{
+  "name": "@miro-site/fresh-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@miro-site/core": "*",
+    "@miro-site/design-tokens": "*",
+    "next": "10.1.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-fonts": "^1.5.1",
+    "next-optimized-images": "^2.6.2",
+    "next-transpile-modules": "^6.4.0"
+  }
+}
