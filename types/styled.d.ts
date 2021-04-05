@@ -1,20 +1,9 @@
-/* eslint-disable @typescript-eslint/no-empty-interface */
 import {CSSProp, CSSObject} from 'styled-components'
-
-import type {
-  TemplatesColors,
-  TemplatesTheme,
-  TemplatesButtonVariants,
-} from '@miro-site/templates-design'
+import {Theme} from '@miro-site/design-tokens'
 
 declare module 'styled-components' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  export interface DefaultTheme extends TemplatesTheme {}
-}
-
-declare module '@miro-site/design-tokens' {
-  export interface Colors extends TemplatesColors {}
-  export interface ButtonVariants extends TemplatesButtonVariants {}
+  export interface DefaultTheme extends Theme {}
 }
 
 declare module 'react' {
